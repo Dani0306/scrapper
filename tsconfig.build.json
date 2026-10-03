@@ -1,0 +1,5 @@
+{
+  // `npm run build`: same settings as tsconfig.json, without the test files.
+  "extends": "./tsconfig.json",
+  "exclude": ["src/**/*.test.ts"]
+}
